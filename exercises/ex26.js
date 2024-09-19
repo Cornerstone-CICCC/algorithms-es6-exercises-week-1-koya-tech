@@ -6,46 +6,35 @@ eggs, sausage, toast, hashbrowns, pancakes
 The object should contain properties for the name, price, and ingredients.
 */
 
-class Lumberjack {
-    constructor(balabnce) {
-        this.balabnce = balabnce;
-    }
+const Lumberjack = {
+    balance: 9.95
 }
 
-class Eggs {
-    constructor(name, price, ingredients) {
-        this.name = name;
-        this.price = price;
-        this.ingredients = ingredients;
-    }
+const egg = {
+    name: "egg",
+    price: 2.00,
+    ingredients: "protein"
+}
+const sausage = {
+    name: "sausage",
+    price: 2.00,
+    ingredients: "protein"
 }
 
-class Sausage {
-    constructor(name, price, ingredients) {
-        this.name = name;
-        this.price = price;
-        this.ingredients = ingredients;
-    }
-}
-class Toast {
-    constructor(name, price, ingredients) {
-        this.name = name;
-        this.price = price;
-        this.ingredients = ingredients;
-    }
+const toast = {
+    name: "toast",
+    price: 2.00,
+    ingredients: "protein"
 }
 
-class Hashbrowns {
-    constructor(name, price, ingredients) {
-        this.name = name;
-        this.price = price;
-        this.ingredients = ingredients;
-    }
+const hashbrowns = {
+    name: "hashbrowns",
+    price: 2.00,
+    ingredients: "protein"
 }
-class Pancakes {
-    constructor(name, price, ingredients) {
-        this.name = name;
-        this.price = price;
-        this.ingredients = ingredients;
-    }
+
+const pancakes = {
+    name: "pancakes",
+    price: 2.00,
+    ingredients: "protein"
 }
