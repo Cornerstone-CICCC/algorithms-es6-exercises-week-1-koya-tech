@@ -9,3 +9,13 @@ A factorial is calculated by multiplying a number by all the numbers below it. F
 
 Save your final answer in a variable called solution and print it to the console.
 */
+
+const num = 5;
+
+function factorial(x) {
+    if (x == 1) {
+        return 1;
+    }
+    return x * factorial(x - 1);
+}
+console.log(factorial(num))
